@@ -15,6 +15,6 @@ def abbrev_name(name):
             initials += name[i+1]
     return initials.upper()
  
-# Solution 2
+# Solution 2 (this can take more than 2 words)
  def abbrev_name(name):
     return '.'.join(i[0] for i in name.split()).upper()
