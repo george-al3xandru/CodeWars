@@ -29,3 +29,11 @@ def get_grade(s1, s2, s3):
     for score, grade in [(90, 'A'), (80, 'B'), (70, 'C'), (60, 'D'), (0, 'F')]:
         if average >= score:
             return grade
+
+# Solution 3
+scores = {10: 'A', 9: 'A', 8: 'B', 7: 'C', 6: 'D'}
+def get_grade(*args):
+    average = sum(args) / len(args)
+    return scores.get(average // 10, 'F') 
+
+# *args The asterisk is used incase any number of amount of values are passed into the function so it is not just limited to three as given in the problem description.
