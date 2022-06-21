@@ -14,7 +14,7 @@ Names given are always valid strings.
 
 ---
 
-### Solution
+### Solution:
 
 
 ```python
