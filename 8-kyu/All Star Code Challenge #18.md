@@ -21,7 +21,7 @@ Notes:
 
 ---
 
-### Solution 1:
+### Solution:
 
 ```python
 def str_count(strng, letter):
