@@ -1,9 +1,18 @@
-# DESCRIPTION:
-# The function is not returning the correct values. Can you figure out why?
+# Get Planet Name By ID
 
-# Example (Input --> Output ):
-# 3 --> "Earth"
+ The function is not returning the correct values. Can you figure out why?
 
+Example (Input --> Output ):
+
+```
+3 --> "Earth"
+```
+
+---
+
+### Solution:
+
+```python
 def get_planet_name(id):
     return {   
     1: "Mercury",
@@ -15,3 +24,4 @@ def get_planet_name(id):
     7: "Uranus",  
     8: "Neptune",
     }[id]
+```
