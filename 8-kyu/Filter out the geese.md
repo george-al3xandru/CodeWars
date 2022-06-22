@@ -26,7 +26,7 @@ The elements in the returned array should be in the same order as in the initial
 
 ### Solution 1:
 
-```pyhton
+```python
 geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
 def goose_filter(birds):
     for i in birds[:]:
@@ -39,7 +39,7 @@ def goose_filter(birds):
 
 ### Solution 2:
 
-```pyhton
+```python
 geese = {"African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"}
 def goose_filter(birds):
     return [bird for bird in birds if bird not in geese]
