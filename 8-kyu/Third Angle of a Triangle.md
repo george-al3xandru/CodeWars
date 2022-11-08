@@ -10,7 +10,17 @@ Note: only positive integers will be tested.
 
 ### Solution:
 
+Python:
+
 ```python
 def other_angle(a, b):
     return 180 - a - b
+```
+
+Javascript:
+
+```javascript
+function otherAngle(a, b) {
+  return 180 - a - b;
+}
 ```
