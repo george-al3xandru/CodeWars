@@ -13,9 +13,9 @@ if bmi > 30 return "Obese"
 
 ---
 
-### Solution 1:
+### Python:
 
-Python:
+Solution 1:
 
 ```python
 def bmi(weight, height):
@@ -26,7 +26,7 @@ def bmi(weight, height):
     else: return "Obese"
 ```
 
-### Solution 2:
+Solution 2:
 
 ```python
 def bmi(weight, height):
@@ -34,7 +34,7 @@ def bmi(weight, height):
     return ['Underweight', 'Normal', 'Overweight', 'Obese'][(bmi >= 30) + (bmi >= 25) + (bmi >= 18.5)]
 ```
 
-JavaScript:
+### JavaScript:
 
 ```javascript
 function bmi(weight, height) {
