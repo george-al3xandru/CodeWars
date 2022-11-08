@@ -12,10 +12,20 @@ Example:
 
 ### Solution:
 
+Python:
+
 ```python
 def grow(arr):
     result = 1
     for i in arr:
         result *= i
     return result
+```
+
+JavaScript:
+
+```javascript
+function grow(x){
+  return x.reduce((acc, elem) => acc * elem, 1);
+}
 ```
